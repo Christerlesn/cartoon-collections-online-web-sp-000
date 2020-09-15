@@ -1,7 +1,12 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
-end
+require 'pry'
 
+def roll_call_dwarves(dwarves)
+i = 0
+while i < dwarves.length
+ puts dwarves.collect.each_with_index
+end
+end
+binding pry
 def summon_captain_planet# code an argument here
   # Your code here
 end
