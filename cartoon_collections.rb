@@ -1,7 +1,7 @@
 require 'pry'
 
 def roll_call_dwarves(dwarves)
-dwarves.collect.each_with_index { |dwarf, index| puts "#{index}. #{dwarf}"}
+dwarves.collect.each_with_index { |dwarf, index| puts "#{index + 1}. #{dwarf}"}
 end
 
 def summon_captain_planet# code an argument here
